@@ -455,69 +455,70 @@
         </section>
         <!-- End Skills Section -->
 
-        <!-- ======= Contact Section ======= -->
-        <section class="contact" id="contact">
-            <div class="container">
+<!-- ======= Sección Contacto ======= -->
+                        <section class="contact" id="contact">
+                            <div class="container">
 
-                <div class="section-title">
-                    <h2>Contacto</h2>
-                </div>
-
-                <div class="row" data-aos="fade-in">
-
-                    <div class="col-lg-5 d-flex align-items-stretch">
-                        <div class="info">
-
-                            <div class="email">
-                                <i class="icofont-envelope"></i>
-                                <h4>Email:</h4>
-                                <p>alex.mparcoq@gmail.com</p>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                        <form class="php-email-form" method="post" action="assets/php/sendemail.php " role="form">
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <label for="name">Nombre</label>
-                                    <input class="form-control" data-msg="Please enter at least 4 chars" data-rule="minlen:4" id="name" name="name" type="text" />
-                                    <div class="validate"></div>
+                                <div class="section-title">
+                                    <h2>Contacto</h2>
+                                    <p>¿Tienes un proyecto en mente? ¡Hablemos!</p>
                                 </div>
-                                <div class="form-group col-md-6">
-                                    <label for="email">Email</label>
-                                    <input class="form-control" data-msg="Please enter a valid email" data-rule="email" id="email" name="email" type="email" />
-                                    <div class="validate"></div>
+
+                                <div class="row" data-aos="fade-in">
+
+                                    <div class="col-lg-5 d-flex align-items-stretch">
+                                        <div class="info">
+                                            <div class="email">
+                                                <i class="icofont-envelope"></i>
+                                                <h4>Email Personal:</h4>
+                                                <p>alex.mparcoq@gmail.com</p>
+                                            </div>
+
+                                            <div class="email mt-4">
+                                                <i class="icofont-university"></i>
+                                                <h4>Email Universitario:</h4>
+                                                <p>73978755@continental.edu.pe</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                                        <form name="contact-es" method="POST" netlify class="php-email-form">
+                                            <input type="hidden" name="form-name" value="contact-es">
+                                            <input type="hidden" name="language" value="español">
+                                            
+                                            <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                    <label for="name">Tu Nombre</label>
+                                                    <input type="text" name="name" class="form-control" id="name" required>
+                                                </div>
+                                                <div class="form-group col-md-6">
+                                                    <label for="email">Tu Email</label>
+                                                    <input type="email" class="form-control" name="email" id="email" required>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="form-group">
+                                                <label for="subject">Asunto</label>
+                                                <input type="text" class="form-control" name="subject" id="subject" required>
+                                            </div>
+                                            
+                                            <div class="form-group">
+                                                <label for="message">Mensaje</label>
+                                                <textarea class="form-control" name="message" rows="10" required></textarea>
+                                            </div>
+                                            
+                                            <div class="text-center">
+                                                <button type="submit">Enviar Mensaje</button>
+                                            </div>
+                                        </form>
+                                    </div>
+
                                 </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="subject">Asunto</label>
-                                <input class="form-control" data-msg="Please enter at least 8 chars of subject" data-rule="minlen:4" id="subject" name="subject" type="text" />
-                                <div class="validate"></div>
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Mensaje</label>
-                                <textarea class="form-control" data-msg="Please write something for us" data-rule="required" name="message" id="message" rows="10"></textarea>
-                                <div class="validate"></div>
-                            </div>
-                            <div class="mb-3">
-                                <div class="loading">Loading</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">Tu mensaje se ha enviado, ¡Muchas gracias!</div>
-                            </div>
-                            <div class="text-center">
-                                <button type="submit">Enviar</button>
-                            </div>
-                        </form>
-                    </div>
 
-                </div>
-
-            </div>
-        </section>
-        <!-- End Contact Section -->
+                            </div>
+                        </section>
+<!-- End Contact Section -->
 
     </main>
     <!-- End #main -->

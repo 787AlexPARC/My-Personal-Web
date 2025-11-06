@@ -48,7 +48,7 @@
                     <a class="github" href="https://github.com/787AlexPARC"><i class="bx bxl-github"></i></a>
                     <a class="facebook" href="https://www.facebook.com/alex.parco.946"><i class="bx bxl-facebook"></i></a>
                     <a class="instagram" href="https://www.instagram.com/parco.alex/"><i class="bx bxl-instagram"></i></a>
-                    <a class="tiktok" href="https://www.tiktok.com/@alex_af8?is_from_webapp=1&sender_device=pc"><i class="icofont-tiktok"></i></a>
+                    <a class="tiktok" href="https://www.tiktok.com/@alex_af8?is_from_webapp=1&sender_device=pc"><i class="bx bxl-tiktok"></i></a>
                 </div>
             </div>
 
@@ -440,69 +440,70 @@
         </section>
         <!-- End Skills Section -->
 
-        <!-- ======= Contact Section ======= -->
-        <section class="contact" id="contact">
-            <div class="container">
+<!-- ======= Contact Section ======= -->
+                    <section class="contact" id="contact">
+                        <div class="container">
 
-                <div class="section-title">
-                    <h2>Contact</h2>
-                </div>
+                            <div class="section-title">
+                                <h2>Contact</h2>
+                                <p>Do you have a project in mind? Let's talk!</p>
+                            </div>
 
-                <div class="row" data-aos="fade-in">
+                            <div class="row" data-aos="fade-in">
 
-                    <div class="col-lg-5 d-flex align-items-stretch">
-                        <div class="info">
+                                <div class="col-lg-5 d-flex align-items-stretch">
+                                    <div class="info">
+                                        <div class="email">
+                                            <i class="icofont-envelope"></i>
+                                            <h4>Personal Email:</h4>
+                                            <p>alex.mparcoq@gmail.com</p>
+                                        </div>
 
-                            <div class="email">
-                                <i class="icofont-envelope"></i>
-                                <h4>Email:</h4>
-                                <p>alex.mparcoq@gmail.com</p>
+                                        <div class="email mt-4">
+                                            <i class="icofont-university"></i>
+                                            <h4>University Email:</h4>
+                                            <p>73978755@continental.edu.pe</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                                    <form name="contact-en" method="POST" netlify class="php-email-form">
+                                        <input type="hidden" name="form-name" value="contact-en">
+                                        <input type="hidden" name="language" value="english">
+                                        
+                                        <div class="form-row">
+                                            <div class="form-group col-md-6">
+                                                <label for="name">Your Name</label>
+                                                <input type="text" name="name" class="form-control" id="name" required>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label for="email">Your Email</label>
+                                                <input type="email" class="form-control" name="email" id="email" required>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label for="subject">Subject</label>
+                                            <input type="text" class="form-control" name="subject" id="subject" required>
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label for="message">Message</label>
+                                            <textarea class="form-control" name="message" rows="10" required></textarea>
+                                        </div>
+                                        
+                                        <div class="text-center">
+                                            <button type="submit">Send Message</button>
+                                        </div>
+                                    </form>
+                                </div>
+
                             </div>
 
                         </div>
-
-                    </div>
-
-                    <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                        <form action="assets/php/sendemail.php " class="php-email-form" method="post" role="form">
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <label for="name">Name</label>
-                                    <input class="form-control" data-msg="Please enter at least 4 chars" data-rule="minlen:4" id="name" name="name" type="text" />
-                                    <div class="validate"></div>
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="email">Email</label>
-                                    <input class="form-control" data-msg="Please enter a valid email" data-rule="email" id="email" name="email" type="email" />
-                                    <div class="validate"></div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="subject">Subject</label>
-                                <input class="form-control" data-msg="Please enter at least 8 chars of subject" data-rule="minlen:4" id="subject" name="subject" type="text" />
-                                <div class="validate"></div>
-                            </div>
-                            <div class="form-group">
-                                <label for="message">Message</label>
-                                <textarea class="form-control" data-msg="Please write something for us" data-rule="required" id="message" name="message" rows="10"></textarea>
-                                <div class="validate"></div>
-                            </div>
-                            <div class="mb-3">
-                                <div class="loading">Loading</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">Your message has been sent, thank you very much!</div>
-                            </div>
-                            <div class="text-center">
-                                <button type="submit">Send</button>
-                            </div>
-                        </form>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-        <!-- End Contact Section -->
+                    </section>
+<!-- End Contact Section -->
 
     </main>
     <!-- End #main -->
